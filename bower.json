@@ -1,0 +1,24 @@
+{
+  "name": "waitstaffCalculator-routes",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ohar0036/waitstaffCalculator",
+  "authors": [
+    "Marina <ohar0036@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-route": "~1.4.4",
+    "angular-messages": "~1.4.4"
+  }
+}

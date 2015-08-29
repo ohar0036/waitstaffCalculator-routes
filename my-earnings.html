@@ -1,0 +1,39 @@
+<div class="container routes-container">
+<!-- MY EARNINGS INFO -->
+      <div class="earningsInfo">
+
+        <h2>My Earnings Info:</h2>
+        <div class="divider"></div>
+
+        <form class="form-horizontal" name="earningsInfoForm" novalidate >
+
+        <!--tip total-->
+          <div class="form-group">
+            <label for="tipTotal" class="col-sm-4 control-label">Tip Total:</label>
+            <div class="col-sm-8" >
+              {{ $root.tipTotal | currency }}
+            </div>
+          </div>
+
+        <!--meal count-->
+          <div class="form-group">
+            <label for="mealCount" class="col-sm-4 control-label">Meal Count:</label>
+            <div class="col-sm-8">
+              {{ $root.mealCount }}
+            </div>
+          </div>
+
+        <!--average tip per meal-->
+          <div class="form-group">
+            <label for="averageTip" class="col-sm-4 control-label">Average Tip/Meal:</label>
+            <div class="col-sm-8">
+              {{ $root.averageTip | currency}}
+            </div>
+          </div>
+
+        </form>
+    </div>
+<!--end MY EARNINGS INFO-->
+
+<input class="btn btn-default pull-right" type="submit" ng-click="reset()" value="Reset">
+</div>

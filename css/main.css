@@ -1,0 +1,114 @@
+body {
+  background-color: #F0F0F0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: #4f6fad;
+  text-transform: uppercase;
+  font-size: 1.85em;
+  margin: 1em 0 0.75em 0;
+}
+
+.menu {
+  width: 17.188em;
+  margin: 0 auto;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul > li {
+  display: inline-block;
+}
+
+.routes-container {
+  max-width: 31.250em;
+}
+
+.divider {
+  margin: 0 0 2em 0;
+  border: 0;
+  width: 100%;
+  display: block;
+  border: 1px dashed #D8D8D8 ;
+}
+
+label {
+  color: #4f6fad;
+}
+
+.control-label {
+  font-weight: 600;
+}
+
+.jumbotron {
+  background: #4f6fad;
+}
+
+.jumbotron > h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+.mealDetails, .customerCharges, .earningsInfo {
+  border: 1px solid #d8d8d8;
+  background: #fff;
+  border-radius: 0.25em;
+    margin: 1em 0 2em 0;
+      padding: 0 1em 1em 1em;
+}
+
+
+.earningsInfo {
+  margin-top: 1em;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  background: #4f6fad;
+  border-radius: 0.25em;
+  border-bottom: 5px solid #3F598A;
+  color: #fff;
+  padding: 0.74em 1.5em;
+}
+
+.btn:hover {
+  background: #617DB5;
+  border-bottom: 5px solid #374E79;
+  color: #fff;
+  outline: none;
+}
+
+.submitBtn {
+  margin-right: 1em;
+}
+
+.error {
+  color: #a94442;
+  background-color: #f2dede;
+  font-size: 0.85em;
+  margin: 1px;
+}
+
+
+/*
+$white: #fff;
+$grey: #ccc;
+$dark_grey: #555;
+$blue: #4f6fad;
+$pink: #ee9cb4;
+*/
